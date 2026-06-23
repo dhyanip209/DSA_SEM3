@@ -1,10 +1,13 @@
+//WAP to print Armstrong number from 1 to 1000.
+
 #include <stdio.h>
 
 void main() {
     int n, temp, digit, sum;
+    
 
 
-    for (int i = 1; i <= 1000; i++) {
+    for (int n = 1; n <= 1000; n++) {
         temp = n;
         sum = 0;
 
@@ -14,8 +17,8 @@ void main() {
             temp = temp / 10;
         }
 
-        if (sum == num) {
-            printf("%d ", num);
+        if (sum == n) {
+            printf("%d ", n);
         }
     }
 
